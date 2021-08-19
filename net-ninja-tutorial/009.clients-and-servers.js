@@ -24,7 +24,7 @@
     we know that the request was meant for NodeJS itself and not for some other program
     which is also running on the server instead like an email program.
 
-    The answer is ports. NodeJS and other programs running on the server or listen
+    The answer is ports. NodeJS and other programs running on the server all listen
     to a particular port number.
 
     So if a request is sent to an IP address to a particular port number on that IP if
