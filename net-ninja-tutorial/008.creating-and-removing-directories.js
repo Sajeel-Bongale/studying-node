@@ -24,7 +24,7 @@ var fs = require('fs')
 // Example 1
 /*
 Uncomment to run unlink - file deletion
-fs.unlink(__dirname + '/writeme.txt', () => {
+fs.unlink(__dirname + '/007.writeme.txt', () => {
     console.log('Successfully deleted file')
 })
 */

@@ -34,14 +34,14 @@
 var fs = require('fs');
 
 // Example 1
-var readme = fs.readFileSync(__dirname + '/readme.txt', {
+var readme = fs.readFileSync(__dirname + '/007.readme.txt', {
     encoding: 'utf-8'
 }); // this is a synchronous method
 
-fs.writeFileSync(__dirname + '/writeme.txt', readme, {encoding: 'utf-8'});
+fs.writeFileSync(__dirname + '/007.writeme.txt', readme, {encoding: 'utf-8'});
 
 // Example 2
 
-fs.readFile(__dirname + '/readasync.txt', (err, data) => {
-    fs.writeFile(__dirname + '/writeasync.txt', data, () => {});
+fs.readFile(__dirname + '/007.readasync.txt', (err, data) => {
+    fs.writeFile(__dirname + '/007.writeasync.txt', data, () => {});
 });
