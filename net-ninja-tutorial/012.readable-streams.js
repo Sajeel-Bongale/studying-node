@@ -3,7 +3,7 @@
 
     Writable streams allow NodeJS to write data to streams.
 
-    Readable streams allow NodeJS to write data to streams.
+    Readable streams allow NodeJS to read data from streams.
 
     Duplex streams can do both.
 
@@ -15,8 +15,8 @@
 
     To read a file using the read stream you use the method createReadStream on the fs module.
 
-    To listen to updates on the read stream we need to set up a listener that triggers that
-    triggers when a chunk(buffer) of data is available to read. The event to listen is data.
+    To listen to updates on the read stream we need to set up a listener that triggers
+    when a chunk(buffer) of data is available to read. The event to listen is data.
 
     When you run the below code, you see that two chunks of data are being received as the file
     being read is very large. Two consoles for each of the data are logged.

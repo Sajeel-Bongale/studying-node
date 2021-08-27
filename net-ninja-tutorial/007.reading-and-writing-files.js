@@ -40,8 +40,8 @@ var readme = fs.readFileSync(__dirname + '/007.readme.txt', {
 
 fs.writeFileSync(__dirname + '/007.writeme.txt', readme, {encoding: 'utf-8'});
 
-// Example 2
 
+// Example 2
 fs.readFile(__dirname + '/007.readasync.txt', (err, data) => {
     fs.writeFile(__dirname + '/007.writeasync.txt', data, () => {});
 });
