@@ -22,7 +22,6 @@ app.get('/contact', function (request, response) {
 });
 
 app.get('/profile/:id', function (request, response) {
-    console.log(request);
     response.send("You requested to see the profile with the id of: " + request.params.id);
 });
 

@@ -21,7 +21,7 @@
     When you pipe the response to the response object, it behaves as a write stream.
     When the read stream data is finished sending chunks, it automatically closes
     the response object and finishes its execution. Till the time the data is being
-    sent, the connection remains objects.
+    sent, the connection remains open.
 
  */
 
