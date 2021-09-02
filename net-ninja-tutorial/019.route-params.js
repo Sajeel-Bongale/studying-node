@@ -5,7 +5,7 @@
 
     To tackle dynamic routes such as /profile/:id, you need to use something called route params.
 
-    The parameters passed to through the URL are available on the request object on the params
+    The parameters passed through to the URL are available on the request object on the params
     property. You can request the param by specifying the name of the property(id).
  */
 

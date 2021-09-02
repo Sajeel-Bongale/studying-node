@@ -21,11 +21,11 @@
     to look into this default folder when view engine has been set.
 
     You use the render method on the response object and pass it the newly created ejs file in the
-    views folder. (See views/profile.ejs)
+    views folder. (See /views/profile.ejs)
 
     For dynamic content injection we pass a second parameter to the render method which gets
     passed into the view as properties. To access those properties we use <%= variableName %>
-    syntax in the EJS files. You can pass objects inside the object property too.
+    syntax in the EJS files. You can pass objects too.
 
     Dynamic content can contain arrays, objects, etc
 
