@@ -30,11 +30,11 @@ app.set('view engine', 'ejs')
 
 
 app.get('/', function (request, response) {
-    response.render('index');
+    response.render('021-index');
 });
 
 app.get('/contact', function (request, response) {
-    response.render('contact');
+    response.render('021-contact');
 });
 
 app.get('/profile/:name', function (request, response) {
@@ -43,7 +43,7 @@ app.get('/profile/:name', function (request, response) {
         job: 'Ninja',
         hobbies: ['eating', 'fighting', 'fishing']
     }
-    response.render('profile', { person: request.params.name, data });
+    response.render('021-profile', { person: request.params.name, data });
 });
 
 
