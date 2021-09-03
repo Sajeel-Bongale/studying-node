@@ -9,6 +9,10 @@
     property. You can request the param by specifying the name of the property(id).
  */
 
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/019.route-params.js
+// Go to localhost:8080 to see the server running
+
 const express = require('express')
 
 const app = express();
@@ -26,3 +30,7 @@ app.get('/profile/:id', function (request, response) {
 });
 
 app.listen(8080)
+
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/019.route-params.js
+// Go to localhost:8080 to see the server running

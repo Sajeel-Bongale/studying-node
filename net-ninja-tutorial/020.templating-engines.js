@@ -34,6 +34,9 @@
     value inside the template. Without it you are asking EJS to read it like simple JS code.
  */
 
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/020.templating-engines.js
+// Go to localhost:8080 to see the server running
 
 const express = require('express')
 
@@ -60,3 +63,7 @@ app.get('/profile/:name', function (request, response) {
 
 
 app.listen(8080)
+
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/020.templating-engines.js
+// Go to localhost:8080 to see the server running

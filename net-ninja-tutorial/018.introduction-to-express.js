@@ -26,6 +26,10 @@
     by itself.
  */
 
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/018.introduction-to-express.js
+// Go to localhost:8080 and you will see that the server responds with the response string
+
 const express = require('express')
 
 const app = express();

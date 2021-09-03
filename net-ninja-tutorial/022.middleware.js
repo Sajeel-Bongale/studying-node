@@ -30,6 +30,11 @@
     The folders can be named anything. They don't always have to be called assets.
  */
 
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/022.middleware.js
+// Go to localhost:8080 to see the server running
+
+
 const express = require('express')
 
 const app = express();
@@ -59,3 +64,7 @@ app.get('/profile/:name', function (request, response) {
 
 app.listen(8080)
 
+
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/022.middleware.js
+// Go to localhost:8080 to see the server running

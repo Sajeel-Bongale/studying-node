@@ -22,6 +22,10 @@
     in each of these files.
  */
 
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/021.partial-views.js
+// Go to localhost:8080 to see the server running
+
 const express = require('express')
 
 const app = express();
@@ -47,4 +51,8 @@ app.get('/profile/:name', function (request, response) {
 });
 
 
-app.listen(8080)
+app.listen(8080);
+
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/021.partial-views.js
+// Go to localhost:8080 to see the server running

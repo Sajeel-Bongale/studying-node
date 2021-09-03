@@ -14,6 +14,10 @@
 
  */
 
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/023.query-strings.js
+// Go to localhost:8080 to see the server running
+
 
 const express = require('express')
 
@@ -43,4 +47,10 @@ app.get('/profile/:name', function (request, response) {
 
 
 app.listen(8080)
+
+
+// You will need to globally install nodemon using npm
+// Run nodemon net-ninja-tutorial/023.query-strings.js
+// Go to localhost:8080 to see the server running
+
 
