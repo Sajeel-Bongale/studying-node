@@ -55,7 +55,7 @@ app.get('/profile/:name', function (request, response) {
         job: 'Ninja',
         hobbies: ['eating', 'fighting', 'fishing']
     }
-    response.render('profile', { person: request.params.name, data });
+    response.render('020-profile', { person: request.params.name, data });
 });
 
 
