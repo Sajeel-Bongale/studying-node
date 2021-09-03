@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Serve HTML</title>
+    <link rel="stylesheet" type="text/css" href="/assets/023-styles.css" />
+</head>
+<body>
+<%- include('partials/023-nav.ejs') %>
+<h1> Contact Us! </h1>
+<p>Contact the coolest cats on the web right here..</p>
+
+<form id="contact-form" method="post" action="/contact">
+    <label for="who">Who do you want to contact</label>
+    <input type="text" name="who" value="<%= data.person %>">
+    <label for="department">Which department?</label>
+    <input type="text" name="department"  value="<%= data.department %>">
+    <label for="email">Your email</label>
+    <input type="email" name="email">
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
