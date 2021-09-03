@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Serve HTML</title>
+    <link rel="stylesheet" type="text/css" href="/assets/023-styles.css" />
+</head>
+<body>
+<%- include('partials/023-nav.ejs') %>
+<h1> Welcome to the profile <%= person %> </h1>
+<p> <strong>Age: </strong> <%= data.age%> </p>
+<p> <strong>Job: </strong> <%= data.job%> </p>
+<h2>Hobbies</h2>
+<ul>
+    <% data.hobbies.forEach(item => { %>
+        <li> <%= item %></li>
+    <% }) %>
+</ul>
+</body>
+</html>

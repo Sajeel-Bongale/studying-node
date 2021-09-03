@@ -15,7 +15,7 @@
     Middleware is essentially code that runs between the request and the response. It is simply code
     that's in the middle.
 
-    There is some baked in middle ware that comes along with express. To use it call the use method on the app.
+    There is some baked in middleware that comes along with express. To use it call the use method on the app.
     To it pass a route for when the middleware should be triggered and a callback that executes your code.
 
     The use method has 3 implicit parameters, request, response, next. The first two are the same as before,
@@ -27,7 +27,7 @@
 
     We can simply use the express.static method to specify where our static files reside.
 
-    The folders can be named anything. They don't always have to be called static.
+    The folders can be named anything. They don't always have to be called assets.
  */
 
 const express = require('express')
