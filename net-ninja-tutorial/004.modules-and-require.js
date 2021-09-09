@@ -47,4 +47,7 @@
     If you export an object, an object is received. But, if, like in this case, you export only
     a single function, it is received when the require is called.
 
+    Note: If you have a function call in a module, on require of that module, the function call will be run,
+    irrespective of whether content is exported from that module or not.
+
  */
