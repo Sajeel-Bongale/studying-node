@@ -29,6 +29,10 @@
 
     However with streams listeners fire every time the buffer is filled up and some amount of
     content is ready to be passed on to the stream.
+
+    Default buffer size is 64kB. However we can change that using the options object using the
+    property highWaterMark with a value in bytes. You can also set up encoding using the
+    encoding string.
 */
 
 const fs = require('fs');

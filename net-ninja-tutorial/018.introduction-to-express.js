@@ -24,6 +24,13 @@
     You can send a response using the send method on the response object by passing it the data
     to be transferred. You do not have to specify the content type as express figures it out
     by itself.
+
+    The all method allows you to configure a generic response to all the request verbs that do not
+    match any path in the application. You use the '*' wildcard as a path variable to specify that
+    all the non matched paths should be served with a generic response mentioned in the callback function.
+
+    There is also a status method that returns the response object so it can be chained on the response.
+    It allows you to manually set a status code on the response.
  */
 
 // You will need to globally install nodemon using npm
@@ -42,7 +49,13 @@ app.get('/contact', function (request, response) {
     response.send("This is the contact page");
 });
 
-app.listen(8080)
+app.all('*', function (request, response) {
+    response.send("Could not find requested page");
+})
+
+app.listen(8080);
+
+
 
 // You will need to globally install nodemon using npm
 // Run nodemon net-ninja-tutorial/018.introduction-to-express.js
