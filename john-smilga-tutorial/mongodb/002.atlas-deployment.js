@@ -17,7 +17,7 @@
 
     Only one cluster can be created per project.
 
-    A cluster created 3 replicas of your database. Once the cluster and databases are setup,
+    A cluster creates 3 replicas of your database. Once the cluster and databases are setup,
     go to Database Access under security.
 
     Here you will be able to grant access to users who will be able to connect to your newly
