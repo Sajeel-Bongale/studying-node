@@ -32,4 +32,10 @@
     To create the model, run the model method on the mongoose object and pass it two things,
     1. the name of the collection (Task)
     2. the schema to adhere to when adding the data (TaskSchema - created from above)
+
+    Models are fancy constructors compiled from schema definitions. An instance of a model
+    is called a document.
+    Mongoose automatically looks for the plural, lower cased version of your model.
+    Thus Task model will look for tasks collection in the database.
+
  */
