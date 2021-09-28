@@ -38,4 +38,7 @@
     Mongoose automatically looks for the plural, lower cased version of your model.
     Thus Task model will look for tasks collection in the database.
 
+    Only properties that you set on the schema will be passed on to the database, the rest of
+    them will all be filtered out and excluded.
+
  */
