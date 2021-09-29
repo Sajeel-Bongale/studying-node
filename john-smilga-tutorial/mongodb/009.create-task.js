@@ -7,7 +7,7 @@
     model will allow you to add documents into the collection.
 
     Inside the controller in your code you can now add the object sent from the UI/client which
-    has the same structure as mentioned in the scema and we can use this object directly to
+    has the same structure as mentioned in the schema and we can use this object directly to
     create a document in the collection.
 
     The create method on the model is async and therefore we need to make the controller method

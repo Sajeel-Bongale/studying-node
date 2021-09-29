@@ -6,9 +6,9 @@
     be accepted. There is no data validation as such prior to insertion.
     You can also send an empty object and it will work.
 
-    To prevent this, we will add validations to this.
+    To prevent this, we will add validations.
 
-    We an add validations by creating an object for each schema property and within it declare
+    We can add validations by creating an object for each schema property and within it declare
     all the kind of validations we need:
     eg:
     name: {
