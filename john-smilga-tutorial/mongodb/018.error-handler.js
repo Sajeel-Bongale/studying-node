@@ -15,4 +15,12 @@
     We create a new file that has a middleware function. The difference is that
     since we are creating an error handler, the first argument received by this function
     is error.
+
+    NOTE: The error handler middleware is identified as an error handler middleware by the fact that
+    it has 4 arguments instead of the usual 3(req, res, next). The fourth argument is the error object.
+    Calling the next method with a parameter implies that you want the next error handler to be executed
+    with the error object passed as the argument.
+
+    You can have more complex use cases using these error handlers which will be explored in later projects.
+
  */
