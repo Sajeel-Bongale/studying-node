@@ -55,4 +55,13 @@
     for code as it is too large to accommodate here
 
 
+    Adding Handlebars as a templating engine
+    const expressHbs = require('express-handlebars');
+    const app = express();
+    app.engine('handlebars', expressHbs());
+    app.set('view engine', 'handlebars');
+    app.set('view', 'views');
+    Create a shop.handlebars file in the views folder which uses {{ }} syntax for entering variables
+    Then res.render('shop', { prods: products,  pageTitle: 'Shop', path: '' }); in your controller
+
  */
