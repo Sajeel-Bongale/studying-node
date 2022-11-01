@@ -50,6 +50,9 @@
         res.render('shop', { prods: product, docTitle: 'Shop' }); // To pass data to the template
 
 
+    Adding a layout to pug
+    Please refer to acade-mind/006.templating-engines/004.adding-a-layout-pug.js file
+    for code as it is too large to accommodate here
 
 
  */
