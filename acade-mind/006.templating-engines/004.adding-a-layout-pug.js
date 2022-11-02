@@ -66,4 +66,6 @@
     res.render('shop', { prods: products,  pageTitle: 'Shop', path: '' });
 
 
+    Pug Docs: https://pugjs.org/api/getting-started.html
+
  */

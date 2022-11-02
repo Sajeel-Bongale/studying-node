@@ -64,4 +64,16 @@
     Create a shop.handlebars file in the views folder which uses {{ }} syntax for entering variables
     Then res.render('shop', { prods: products,  pageTitle: 'Shop', path: '' }); in your controller
 
+
+    Using Handlebars
+    For extensive guide on how to implement Handle bars, refer to the video lectures on links:
+    https://www.udemy.com/course/nodejs-the-complete-guide/learn/lecture/11577420#questions
+    https://www.udemy.com/course/nodejs-the-complete-guide/learn/lecture/11577422#questions
+
+
+    Using EJS
+    For extensive guide on how to implement EJS, refer to the video lectures on links:
+    https://www.udemy.com/course/nodejs-the-complete-guide/learn/lecture/11597386#questions
+    https://www.udemy.com/course/nodejs-the-complete-guide/learn/lecture/11597386#questions
+
  */
