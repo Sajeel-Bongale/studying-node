@@ -1,0 +1,9 @@
+/*
+
+    Using Modules
+
+    We can create a module to add the functions and the variables and later export them in another file.
+    By creating a function in a module we can reuse the function in multiple file. In NodeJS every single file is
+    treated as a module.
+
+ */
