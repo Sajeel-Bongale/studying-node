@@ -19,7 +19,7 @@
  */
 
 // You will need to globally install nodemon using npm
-// Run nodemon net-ninja-tutorial/024-handling-post-requests.js
+// Run nodemon net-ninja-tutorial/024-006.handling-post-requests.js
 // Go to localhost:8080 to see the server running
 
 
@@ -62,5 +62,5 @@ app.get('/profile/:name', function (request, response) {
 app.listen(8080)
 
 // You will need to globally install nodemon using npm
-// Run nodemon net-ninja-tutorial/024-handling-post-requests.js
+// Run nodemon net-ninja-tutorial/024-006.handling-post-requests.js
 // Go to localhost:8080 to see the server running
